@@ -1,6 +1,9 @@
 <html>
 	<head>
 	<meta name="robots" content="noindex">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.min.js"></script>
 	<script>
 		function myFunction() {
 			var currentURL=location.href;
@@ -12,9 +15,10 @@
 	</script>
 	</head>
 <body onload="myFunction()">
-Loading
-	<br/>
+<center>Loading</center>
+<br/>
 <div align="center" id="link">
 </div>
+<script>iFrameResize({ log: false, minHeight: 400 }, '#widgetApi')</script>
 </body>
 </html>
